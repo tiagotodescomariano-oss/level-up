@@ -135,3 +135,64 @@ nav a:hover {
   max-width: 1200px;
   margin: auto;
 }
+.card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.6);
+}
+.product-page {
+  padding: 60px 20px;
+}
+
+.product-flex {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.product-flex img {
+  width: 350px;
+  border-radius: 15px;
+  box-shadow: 0 0 25px rgba(0,0,0,0.7);
+}
+
+.product-info {
+  max-width: 500px;
+}
+
+.product-info h2 {
+  font-family: 'Orbitron', sans-serif;
+  margin-bottom: 15px;
+}
+
+.desc {
+  color: #B0B3C6;
+  margin-bottom: 20px;
+}
+
+.product-info ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.product-info ul li {
+  margin-bottom: 8px;
+}
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #00E676;
+  color: black;
+  font-size: 22px;
+  padding: 15px 18px;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0 0 15px rgba(0,0,0,0.6);
+  z-index: 999;
+}
+.hero {
+  background: radial-gradient(circle at top, #1E90FF20, transparent);
+}

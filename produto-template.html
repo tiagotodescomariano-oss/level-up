@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>{{NOME_JOGO}} | LevelUp PSN</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container header-flex">
+    <h1 class="logo">LevelUp <span>PSN</span></h1>
+  </div>
+</header>
+
+<section class="product-page">
+  <div class="container product-flex">
+
+    <img src="images/{{IMAGEM}}" alt="{{NOME_JOGO}}">
+
+    <div class="product-info">
+      <h2>{{NOME_JOGO}}</h2>
+
+      <p class="desc">
+        {{DESCRICAO}}
+      </p>
+
+      <ul>
+        <li>🎮 Plataforma: {{PLATAFORMA}}</li>
+        <li>⚡ Entrega digital</li>
+        <li>🔒 Compra segura via Pix</li>
+      </ul>
+
+      <span class="price">R$ {{PRECO}}</span>
+
+      <a 
+        href="https://wa.me/55SEUNUMERO?text=Olá! Quero comprar {{NOME_JOGO}}"
+        class="button button-green">
+        💬 Comprar pelo WhatsApp
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© 2026 LevelUp PSN</p>
+</footer>
+
+</body>
+</html>
